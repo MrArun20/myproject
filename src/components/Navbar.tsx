@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/MainLogo-Edited.png';
+// import logo from '../assets/MainLogo-Edited.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src={logo}
+              src="/assets/MainLogo-Edited.png"
               alt="Abhivorn Technologies"
               className="h-auto w-32"
               
