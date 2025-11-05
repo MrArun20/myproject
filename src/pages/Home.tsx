@@ -23,7 +23,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/src/assets/Main Logo - Edited.png"
+              src="/public/assets/Main Logo - Edited.png"
               alt="Abhivorn Technologies"
               className="h-auto w-35 md:h-32 mx-auto mb-8"
             />
@@ -70,7 +70,7 @@ export default function Home() {
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
         >
           <div className="flex flex-col items-center text-white/60">
-            <span className="text-sm mb-2">Scroll to discover</span>
+            <span className="text-sm">Scroll to discover</span>
             <div className="w-6 h-10 border-2 border-white/30 rounded-full flex items-start justify-center p-2">
               <div className="w-1 h-3 bg-white/60 rounded-full animate-bounce"></div>
             </div>

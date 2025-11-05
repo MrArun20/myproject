@@ -42,7 +42,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
             <img
-              src="/src/assets/Main Logo - Edited.png"
+              src="/public/assets/Main Logo - Edited.png"
               alt="Abhivorn Technologies"
               className="h-auto w-32"
               
