@@ -23,7 +23,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/public/assets/Main Logo - Edited.png"
+              src="/assets/Main Logo - Edited.png"
               alt="Abhivorn Technologies"
               className="h-auto w-35 md:h-32 mx-auto mb-8"
             />
