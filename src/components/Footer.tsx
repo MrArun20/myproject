@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <a href="/" aria-label="Abhivorn Technologies">
             <img
-              src="/assets/MainLogo-Edited.png"
+              src="/MainLogo-Edited.png"
               alt="Abhivorn Technologies"
               className="h-auto w-32 mb-4"
             />
