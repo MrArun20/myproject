@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
-
+import logo from '../assets/MainLogo-Edited.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <a href="/" aria-label="Abhivorn Technologies">
             <img
-              src="/MainLogo-Edited.png"
+              src={logo}
               alt="Abhivorn Technologies"
               className="h-auto w-32 mb-4"
             />

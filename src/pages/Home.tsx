@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
+import logo from '../assets/MainLogo-Edited.png';
 
 export default function Home() {
   const scrollToServices = () => {
@@ -23,7 +24,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/MainLogo-Edited.png"
+              src={logo}
               alt="Abhivorn Technologies"
               className="h-auto w-35 md:h-32 mx-auto mb-8"
             />
