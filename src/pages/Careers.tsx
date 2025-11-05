@@ -13,121 +13,141 @@ export default function Careers() {
   });
 
   const jobs = [
-    {
-      title: 'Senior Full Stack Developer',
-      location: 'Kukatpally, Hyderabad',
-      type: 'Full-time',
-      experience: '5+ years',
-      description: 'We are looking for an experienced Full Stack Developer to join our team. You will work on cutting-edge web applications using modern frameworks.',
-      requirements: [
-        'Strong experience with React, Node.js, and TypeScript',
-        'Experience with cloud platforms (AWS/Azure)',
-        'Good understanding of database design and optimization',
-        'Excellent problem-solving skills'
-      ],
-      responsibilities: [
-        'Design and develop scalable web applications',
-        'Collaborate with cross-functional teams',
-        'Write clean, maintainable code',
-        'Mentor junior developers'
-      ]
-    },
-    {
-      title: 'Mobile App Developer',
-      location: 'Kukatpally, Hyderabad',
-      type: 'Full-time',
-      experience: '3+ years',
-      description: 'Join our mobile development team to build innovative iOS and Android applications that impact millions of users.',
-      requirements: [
-        'Experience with React Native or Flutter',
-        'Strong understanding of mobile UI/UX principles',
-        'Experience with RESTful APIs and mobile databases',
-        'Published apps on App Store or Play Store'
-      ],
-      responsibilities: [
-        'Develop cross-platform mobile applications',
-        'Optimize app performance',
-        'Implement new features and improvements',
-        'Ensure code quality through testing'
-      ]
-    },
-    {
-      title: 'DevOps Engineer',
-      location: 'Kukatpally, Hyderabad',
-      type: 'Full-time',
-      experience: '4+ years',
-      description: 'We need a skilled DevOps Engineer to help us automate and streamline our operations and processes.',
-      requirements: [
-        'Experience with CI/CD pipelines',
-        'Strong knowledge of Docker and Kubernetes',
-        'Experience with cloud infrastructure (AWS/Azure)',
-        'Scripting skills in Python or Bash'
-      ],
-      responsibilities: [
-        'Build and maintain CI/CD pipelines',
-        'Manage cloud infrastructure',
-        'Implement monitoring and logging solutions',
-        'Automate deployment processes'
-      ]
-    },
-    {
-      title: 'UI/UX Designer',
-      location: 'Kukatpally, Hyderabad',
-      type: 'Full-time',
-      experience: '3+ years',
-      description: 'Create beautiful and intuitive user experiences for our web and mobile applications.',
-      requirements: [
-        'Strong portfolio of design projects',
-        'Proficiency in Figma, Adobe XD, or Sketch',
-        'Understanding of user-centered design principles',
-        'Experience with prototyping and wireframing'
-      ],
-      responsibilities: [
-        'Create user flows and wireframes',
-        'Design high-fidelity mockups',
-        'Conduct user research and testing',
-        'Collaborate with developers'
-      ]
-    },
-    {
-      title: 'Data Scientist',
-      location: 'Kukatpally, Hyderabad',
-      type: 'Full-time',
-      experience: '3+ years',
-      description: 'Join our AI team to build machine learning models and derive insights from complex datasets.',
-      requirements: [
-        'Strong knowledge of Python and ML libraries',
-        'Experience with data analysis and visualization',
-        'Understanding of statistical methods',
-        'Experience with ML frameworks (TensorFlow/PyTorch)'
-      ],
-      responsibilities: [
-        'Develop and deploy ML models',
-        'Analyze large datasets',
-        'Create data visualizations',
-        'Collaborate with engineering teams'
-      ]
-    },
-    {
-      title: 'Cloud Architect',
-      location: 'Kukatpally, Hyderabad',
-      type: 'Full-time',
-      experience: '6+ years',
-      description: 'Design and implement cloud solutions for enterprise clients.',
-      requirements: [
-        'Expert knowledge of AWS/Azure/GCP',
-        'Experience with microservices architecture',
-        'Strong understanding of security best practices',
-        'Cloud certifications preferred'
-      ],
-      responsibilities: [
-        'Design cloud architecture solutions',
-        'Lead cloud migration projects',
-        'Ensure security and compliance',
-        'Optimize cloud costs'
-      ]
-    }
-  ];
+  {
+    title: 'Full Stack Developer Intern',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Internship',
+    experience: '0–1 year',
+    description: 'We are looking for a passionate Full Stack Developer Intern to assist in building modern web applications and learn full-stack development hands-on.',
+    requirements: [
+      'Basic understanding of React, Node.js, and JavaScript',
+      'Familiarity with HTML, CSS, and REST APIs',
+      'Good problem-solving and teamwork skills',
+      'Eagerness to learn and grow with the team'
+    ],
+    responsibilities: [
+      'Assist in developing and maintaining web applications',
+      'Collaborate with developers and designers',
+      'Write clean, reusable code under supervision',
+      'Participate in code reviews and learning sessions'
+    ]
+  },
+  {
+    title: 'Mobile App Developer Intern',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Internship',
+    experience: '0–1 year',
+    description: 'Join our mobile development team as an intern and help build exciting cross-platform mobile applications.',
+    requirements: [
+      'Basic knowledge of React Native or Flutter',
+      'Understanding of mobile UI/UX design principles',
+      'Familiarity with APIs and JSON data handling',
+      'Strong enthusiasm for mobile technologies'
+    ],
+    responsibilities: [
+      'Support mobile app development for iOS and Android',
+      'Assist in fixing bugs and adding new features',
+      'Test and optimize application performance',
+      'Work closely with senior developers'
+    ]
+  },
+  {
+    title: 'DevOps Intern',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Internship',
+    experience: '0–1 year',
+    description: 'We are seeking a motivated DevOps Intern to learn and assist with automation, deployment, and cloud infrastructure management.',
+    requirements: [
+      'Basic understanding of CI/CD concepts',
+      'Familiarity with Docker and Linux commands',
+      'Knowledge of cloud platforms (AWS/Azure) is a plus',
+      'Interest in scripting with Python or Bash'
+    ],
+    responsibilities: [
+      'Assist in building and maintaining CI/CD pipelines',
+      'Monitor and troubleshoot deployment issues',
+      'Work with cloud and containerized environments',
+      'Collaborate with development teams on DevOps tasks'
+    ]
+  },
+  {
+    title: 'UI/UX Design Intern',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Internship',
+    experience: '0–1 year',
+    description: 'We are looking for a creative UI/UX Design Intern to help design intuitive and engaging user experiences for our products.',
+    requirements: [
+      'Basic knowledge of Figma, Adobe XD, or Sketch',
+      'Understanding of design principles and color theory',
+      'Good sense of visual aesthetics and attention to detail',
+      'Willingness to learn from feedback and improve'
+    ],
+    responsibilities: [
+      'Assist in creating wireframes and prototypes',
+      'Design user-friendly layouts for web and mobile apps',
+      'Conduct user research under mentorship',
+      'Work closely with developers to implement designs'
+    ]
+  },
+  {
+    title: 'Data Science Intern',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Internship',
+    experience: '0–1 year',
+    description: 'Join our AI and analytics team as a Data Science Intern and gain practical experience in machine learning and data analysis.',
+    requirements: [
+      'Basic knowledge of Python and ML libraries (NumPy, Pandas, Scikit-learn)',
+      'Understanding of data visualization tools like Matplotlib or Power BI',
+      'Interest in AI, data analytics, and model building',
+      'Strong analytical and mathematical skills'
+    ],
+    responsibilities: [
+      'Support in cleaning and preparing datasets',
+      'Assist in developing ML models',
+      'Perform exploratory data analysis (EDA)',
+      'Collaborate with data scientists and engineers'
+    ]
+  },
+  {
+    title: 'Cloud Engineering Intern',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Internship',
+    experience: '0–1 year',
+    description: 'Learn to design and deploy scalable cloud solutions under the guidance of experienced cloud engineers.',
+    requirements: [
+      'Basic understanding of AWS, Azure, or Google Cloud',
+      'Knowledge of networking and security basics',
+      'Interest in cloud architecture and automation',
+      'Strong willingness to learn cloud technologies'
+    ],
+    responsibilities: [
+      'Assist in setting up cloud infrastructure',
+      'Work on small deployment and monitoring tasks',
+      'Learn cost optimization techniques',
+      'Collaborate on cloud migration and backup tasks'
+    ]
+  },
+  {
+    title: 'AR Caller (Fresher & Experienced)',
+    location: 'Kukatpally, Hyderabad',
+    type: 'Full-time / Internship',
+    experience: '0–2 years',
+    description: 'We are hiring AR Callers to work on US healthcare and insurance claim follow-ups. Freshers and experienced candidates are welcome.',
+    requirements: [
+      'Good communication skills in English (both verbal and written)',
+      'Willingness to work in night shifts',
+      'Basic computer knowledge and typing skills',
+      'Prior experience in AR calling or medical billing is a plus'
+    ],
+    responsibilities: [
+      'Make calls to insurance companies to follow up on claims',
+      'Update claim status and document outcomes',
+      'Identify and resolve claim issues or denials',
+      'Maintain accuracy and productivity standards'
+    ]
+  }
+];
+
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();

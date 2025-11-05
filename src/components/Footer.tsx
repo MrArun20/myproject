@@ -9,11 +9,13 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
+            <a href="/" aria-label="Abhivorn Technologies">
             <img
               src="/src/assets/Main Logo - Edited.png"
               alt="Abhivorn Technologies"
               className="h-auto w-32 mb-4"
             />
+            </a>
             <p className="text-gray-400 mb-6">
               Empowering innovation through cutting-edge technology solutions.
             </p>
@@ -31,7 +33,8 @@ export default function Footer() {
                 <Twitter className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/company/abhivorn-technologies/"
+                target='_blank'
                 className="w-10 h-10 bg-white/10 hover:bg-teal-500 rounded-full flex items-center justify-center transition-colors duration-300"
               >
                 <Linkedin className="w-5 h-5" />
@@ -93,15 +96,15 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start text-gray-400">
                 <MapPin className="w-5 h-5 mr-3 flex-shrink-0 mt-0.5 text-teal-400" />
-                <span>Matrix IT Hub, Near Temple Bus Stop, KPHB Phase 2, Kukatpally<br />Hyderabad, Telangana, India, 500072</span>
+                <a href="https://www.google.com/maps/place/Matrix+IT+Hub/@17.486354,78.396174,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb93f4c4c4c4c4:0x4c4c4c4c4c4c4c4!8m2!3d17.486354!4d78.396174!16s%2Fg%2F11c1t1t1t1" target='_blank'>Matrix IT Hub, Near Temple Bus Stop, KPHB Phase 2, Kukatpally<br />Hyderabad, Telangana, India, 500072</a>
               </li>
               <li className="flex items-center text-gray-400">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0 text-teal-400" />
-                <span>info@abhivorn.com</span>
+                <a href="mailto:hr@abhivorn.com">hr@abhivorn.com</a>
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0 text-teal-400" />
-                <span>+91 76600 54495</span>
+                <a href="tel:+917660054495">+91 76600 54495</a>
               </li>
             </ul>
           </div>
@@ -113,9 +116,9 @@ export default function Footer() {
               <p className="text-gray-400 text-sm">
                 © {currentYear} Abhivorn Technologies Pvt Ltd. All Rights Reserved.
               </p>
-              <p className="text-gray-500 text-sm mt-1">
+              {/* <p className="text-gray-500 text-sm mt-1">
                 CIN: [Company Identification Number]
-              </p>
+              </p> */}
             </div>
             <div className="text-teal-400 font-semibold text-center md:text-right">
               <p className="text-lg">Innovate. Transform. Lead.</p>
