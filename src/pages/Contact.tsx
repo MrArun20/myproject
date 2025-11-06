@@ -251,7 +251,7 @@ export default function Contact() {
             className="rounded-2xl overflow-hidden shadow-xl"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.486927332059!2d78.39400047482016!3d17.48687518341173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb913e0b0c286f%3A0xef50c016d03f53aa!2sVORNIX%20TECHNOLOGY%20PVT%20LTD%2C%20Shanthi%20Nilayam%2C%20Temple%20Bus%20Stop%2C%20KPHB%20Phase%202%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1730712000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4870865864164!2d78.39400457482016!3d17.48688378341171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49f364b62c0799dd%3A0x97e0bc47c22fdf60!2sAbhivorn%20Technologies!5e0!3m2!1sen!2sin!4v1730886000000!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
