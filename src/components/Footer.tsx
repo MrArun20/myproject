@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { FaXTwitter } from "react-icons/fa6";
 // import logo from '/assets/MainLogo-Edited.png';
 
 export default function Footer() {
@@ -21,17 +22,18 @@ export default function Footer() {
               Empowering innovation through cutting-edge technology solutions.
             </p>
             <div className="flex space-x-4">
-              <a
+              {/* <a
                 href="#"
                 className="w-10 h-10 bg-white/10 hover:bg-teal-500 rounded-full flex items-center justify-center transition-colors duration-300"
               >
                 <Facebook className="w-5 h-5" />
-              </a>
+              </a> */}
               <a
-                href="#"
+                href="https://x.com/abhivorntech"
+                target='_blank'
                 className="w-10 h-10 bg-white/10 hover:bg-teal-500 rounded-full flex items-center justify-center transition-colors duration-300"
               >
-                <Twitter className="w-5 h-5" />
+                <FaXTwitter className="w-5 h-5" />
               </a>
               <a
                 href="https://www.linkedin.com/company/abhivorn-technologies/"
@@ -41,7 +43,8 @@ export default function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/abhivorn_technologies/"
+                target='_blank'
                 className="w-10 h-10 bg-white/10 hover:bg-teal-500 rounded-full flex items-center justify-center transition-colors duration-300"
               >
                 <Instagram className="w-5 h-5" />
@@ -101,11 +104,11 @@ export default function Footer() {
               </li>
               <li className="flex items-center text-gray-400">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0 text-teal-400" />
-                <a href="mailto:hr@abhivorn.com">hr@abhivorn.com</a>
+                <a href="mailto:info@abhivorn.com">info@abhivorn.com</a>
               </li>
               <li className="flex items-center text-gray-400">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0 text-teal-400" />
-                <a href="tel:+917660054495">+91 76600 54495</a>
+                <a href="tel:+919966629766">+91 99666 29766</a>
               </li>
             </ul>
           </div>

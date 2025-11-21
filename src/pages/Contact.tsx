@@ -113,7 +113,7 @@ export default function Contact() {
                   <h3 className="text-xl font-bold text-slate-900 mb-2">
                     Email Us
                   </h3>
-                  <p className="text-gray-700">hr@abhivorn.com</p>
+                  <p className="text-gray-700">info@abhivorn.com</p>
                   <p className="text-gray-700">support@abhivorn.com</p>
                 </div>
               </div>

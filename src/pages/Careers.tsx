@@ -89,25 +89,7 @@ export default function Careers() {
       'Work closely with developers to implement designs'
     ]
   },
-  {
-    title: 'Data Science Intern',
-    location: 'Kukatpally, Hyderabad',
-    type: 'Internship',
-    experience: '0–1 year',
-    description: 'Join our AI and analytics team as a Data Science Intern and gain practical experience in machine learning and data analysis.',
-    requirements: [
-      'Basic knowledge of Python and ML libraries (NumPy, Pandas, Scikit-learn)',
-      'Understanding of data visualization tools like Matplotlib or Power BI',
-      'Interest in AI, data analytics, and model building',
-      'Strong analytical and mathematical skills'
-    ],
-    responsibilities: [
-      'Support in cleaning and preparing datasets',
-      'Assist in developing ML models',
-      'Perform exploratory data analysis (EDA)',
-      'Collaborate with data scientists and engineers'
-    ]
-  },
+  
   {
     title: 'Cloud Engineering Intern',
     location: 'Kukatpally, Hyderabad',
